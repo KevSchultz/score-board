@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.36bb9dc2.css",
+    "main.css": "/static/css/main.53f92e50.css",
     "main.js": "/static/js/main.97608124.js",
     "static/media/christmaspingpong.png": "/static/media/christmaspingpong.00d542cd0e7604d68acd.png",
     "static/media/winter-background.jpg": "/static/media/winter-background.7387fb455c98ca9ef945.jpg",
     "static/media/christmas.otf": "/static/media/christmas.b6931d10c0de06618ecf.otf",
     "index.html": "/index.html",
-    "main.36bb9dc2.css.map": "/static/css/main.36bb9dc2.css.map",
+    "main.53f92e50.css.map": "/static/css/main.53f92e50.css.map",
     "main.97608124.js.map": "/static/js/main.97608124.js.map"
   },
   "entrypoints": [
-    "static/css/main.36bb9dc2.css",
+    "static/css/main.53f92e50.css",
     "static/js/main.97608124.js"
   ]
 }
