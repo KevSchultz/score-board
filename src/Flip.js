@@ -1,8 +1,18 @@
+/**
+ * Flip.js
+ * 
+ * This component is responsible for creating a flip clock effect for the score display.
+ * It uses the pqina/flip library to create the effect.
+ * The component receives a value prop which is the score to display.
+ * 
+ * @module Flip
+ */
+
 import React from "react";
 
 import Tick from "@pqina/flip";
 import "@pqina/flip/dist/flip.min.css";
-import "./App.css";
+import "./style.css";
 
 export default class Flip extends React.Component {
   constructor(props) {

@@ -23,7 +23,7 @@
   },
   "particles": {
     "number": {
-      "value": 500,
+      "value": 300,
       "density": {
         "enable": true,
         "value_area": 800
@@ -95,10 +95,5 @@
       }
     }
   },
-  "retina_detect": true,
-  "background": {
-    "color": {
-      "value": "#b61924"
-    }
-  }
+  "retina_detect": true
 }
