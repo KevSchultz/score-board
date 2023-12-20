@@ -19,8 +19,8 @@ import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import Card from '@mui/material/Card';
 import Box from '@mui/material/Box';
+import RadialChart from "./RadialChart";
 
-import ChristmasPingPong from './christmaspingpong.png';
 import Flip from "./Flip";
 import "./style.css";
 
@@ -114,6 +114,7 @@ function ScoreBoard() {
                         >
                             <AddIcon className="score-icon" />
                         </IconButton>
+                        {/* <RadialChart/> */}
                     </Card>
                     <Card className="score-card">
                         <Typography className="score-typography">

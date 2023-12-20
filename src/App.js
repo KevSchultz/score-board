@@ -15,6 +15,7 @@ import { loadFull } from "tsparticles";
 import "./style.css";
 import particlesOptions from "./particles.json";
 import ScoreBoard from "./ScoreBoard";
+import ChristmasPingPong from './christmaspingpong.png';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <div className="App">
             {init && <Particles options={particlesOptions} />}
             <ScoreBoard />
+            <img src={ChristmasPingPong} id="christmas-ping-pong" />
         </div>
     );
 }

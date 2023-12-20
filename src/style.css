@@ -14,6 +14,13 @@ canvas {
     background-color: rgba(0, 0, 0, 0.0);
 }
 
+#christmas-ping-pong {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    width: 200px; /* Adjust as needed */
+}
+
 #tsparticles {
     position: fixed;
     height: 100%;
@@ -48,6 +55,8 @@ canvas {
 }
 
 .score-card {
+    display: flex !important;
+    flex-direction: row !important;
     margin-bottom: 1vh !important;
     background-color: rgba(255, 255, 255, 0.1) !important;
     backdrop-filter: blur(10px) !important;
@@ -104,6 +113,7 @@ canvas {
     white-space: nowrap;
     overflow: hidden;
     position: absolute;
+    top: 0;
     z-index: 1;
     margin: -50px 0 0 0;
     padding: 0;
