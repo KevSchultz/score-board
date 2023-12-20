@@ -41,7 +41,7 @@ function ScoreBoard() {
     useEffect(() => {
         const interval = setInterval(() => {
             setPlayerTwoScore(playerTwoScore => playerTwoScore > 0 ? playerTwoScore - 1 : 0);
-        }, 500);
+        }, 15000);
         return () => clearInterval(interval);
     });
 
