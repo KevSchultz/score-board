@@ -79,6 +79,10 @@ canvas {
 
 
 /* flip section ------ */ 
+.tick {
+    flex-wrap: nowrap !important;
+}
+
 #my-flip {
     margin-top: 10px;
     margin-bottom: 10px;
